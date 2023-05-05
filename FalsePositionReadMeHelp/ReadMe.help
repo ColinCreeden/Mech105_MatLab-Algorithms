@@ -1,0 +1,17 @@
+This algorithm performes the root finding method, false position. 
+Inputs:
+  func = the function being evaluated
+  xu = the upper bound
+  xl = the lower bound
+  es = the stopping criteria (error)
+  maxit = the maximum number of iterations
+Outputs:
+  root = the root of the function
+  fx = the function value at your solved angle
+  ea = the bisection error estimate
+  iter = the number of bisection iterations
+  
+To use the function, the user simply needs to input the function being evaluated, the upper and lower bounds, the stopping criteria which is so the 
+user can get a value as close to the true root as they want, and the maximum number of iterations. The function will use the upper and lower bounds and the function
+values at those bounds to calculate an estimate of the root, it will then replace one of the bounds with the most recent estimation of the root. It will repeat this 
+process until the stopping criteria is met. 
