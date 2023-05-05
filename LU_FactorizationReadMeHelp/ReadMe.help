@@ -1,0 +1,10 @@
+This algorithm performs LU_Factorization
+Inputs:
+  A = coefficient matrix
+Outputs:
+  L = lower triangular matrix
+ 	U = upper triangular matrix
+  P = the permutation matrix
+  
+To use the function, the user simply needs to input the coefficient matrix which contains the coefficients of variables in the system of equations. The algorithm will
+then output 3 matrices.
