@@ -1,0 +1,9 @@
+This algorithm performs Simpsons Integration
+Inputs:
+  x = the vector of equally spaced independent variable
+  y = the vector of function values with respect to x
+Outputs:
+  I = the numerical integral calculated
+  
+To use the function, the user needs to input 2 vectors, one containing x-values, and one containing y-values that correspond to said x-values. An integration 
+technique is then performed to determine the integral of the function, not by using the parent function but by simply just using values from the parent function. 
