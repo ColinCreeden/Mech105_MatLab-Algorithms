@@ -10,3 +10,5 @@ Outputs:
   iter = the number of bisection iterations
   
 To use the function, the user simply needs to input the function being evaluated, and the upper and lower bounds that bracket the root they are trying to determine. 
+The algorithm will take the value that is directly between the upper and lower bounds and that is the guess of the root for that iteration. That guess of the root 
+then replaces either the upper or lower bound and the process is repeated until the root is found. 
