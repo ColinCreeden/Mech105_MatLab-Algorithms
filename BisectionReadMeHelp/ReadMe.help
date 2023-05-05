@@ -1,0 +1,12 @@
+This algorithm performes the root finding method, bisection. 
+Inputs:
+  func = the function being evaluated
+  x_u = the upper bound
+  x_l = the lower bound
+Outputs:
+  root = the root of the function
+  fx = the function value at your solved angle
+  ea = the bisection error estimate
+  iter = the number of bisection iterations
+  
+To use the function, the user simply needs to input the function being evaluated, and the upper and lower bounds that bracket the root they are trying to determine. 
