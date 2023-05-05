@@ -1,0 +1,13 @@
+This algorithm performs linear regression.
+Inputs:
+  x = an array containing x-values for the data set
+  y = an array containing y-values for the data set
+Outputs:
+  fX = x-values with outliers removed
+  fY = y-values with outliers removed
+  slope = slope from the linear regression y=mx+b
+  intercept = intercept from the linear regression y=mx+b
+  Rsquared = R^2, a.k.a. coefficient of determination
+  
+To use the function, the user simply needs to input an array containing the x-values for the data set and an array containing the y-values for the data set. This 
+algorithm will estimate the line of best fit for the data set. 
